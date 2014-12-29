@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700);
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+html{
+	background: url("../img/background.jpg") 50% 0% scroll;
+	height: 950px;
+}
+body {
+	
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+a {
+	color: #B24E51;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	color: #afb3b8;
+	outline: none;
+}
+
+.content {
+	min-height: 250px;
+	margin: 0 auto;
+	padding-bottom: 2em;
+}
+
+.content--tiny {
+	max-width: 800px;
+}
+
+.container {
+	text-align: center;
+	padding: 5.25em 0.5em 0;
+}
+
+/* Header */
+.main-header {
+	padding: 0;
+	letter-spacing: -1px;
+	margin: 0 0 75px 0;
+}
+
+.main-header h1 {
+	font-weight: 800;
+	font-size: 3.5em;
+	line-height: 1;
+	margin: 0;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+.main-header h1 span {
+	display: block;
+	font-size: 35%;
+	letter-spacing: 1px;
+	padding-top: 0.75em;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+footer{
+	text-align: center;
+	font-weight: 800;
+	font-size: 1.5em;
+	line-height: 1;
+	margin: 0;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	margin-top: 100px;
+}
+@media screen and (max-width: 30em) {
+	.codrops-header h1 {
+		font-size: 3em;
+	}
+}
