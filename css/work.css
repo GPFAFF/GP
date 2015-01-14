@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+
+#main {
+	width: 100%; 
+	padding:0;
+}
+.content-asset p {
+	margin:0 auto;
+}
+.breadcrumb {
+	display:none;
+}
+
+/* Helpers */
+/**************************/
+.margin-top-10 {
+	padding-top:10px;
+}
+.margin-bot-10 {
+	padding-bottom:10px;
+}
+
+/* Typography */
+/**************************/
+#parallax h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+#parallax h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:red; font-weight:400; text-transform:uppercase; z-index:10; opacity:.8; text-shadow: 2px 2px 2px white;}
+#parallax h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
+#parallax p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
+.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+
+.sc {color: #3b8595;}
+.ny {color: #3d3c3a;}
+.atw {color: #c48660;}
+
+/* Section - Title - Nav*/
+/**************************/
+#parallax .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
+#parallax nav {width: 300px; padding: 20px; margin: 0px auto; text-align: center; font-family:'Oswald', sans-serif; font-size:14px; font-weight:400; text-transform: uppercase; color:black;}
+#parallax nav li {width: 75px; display: inline-block;}
+a {
+	position: relative;
+	color: #000;
+	text-decoration: none;
+}
+a:hover{
+	color: #000;
+}
+a:before{ content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+a:hover:before{
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+a:before{ content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+a:hover:before{
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+#parallax .title h1 {font-size:35px; letter-spacing:8px;}
+
+/* Section - Block */
+/**************************/
+#parallax .block {background: white; padding: 60px; max-width:820px; margin:0 auto; text-align:justify;}
+#parallax .block-gray {background: #f2f2f2;padding: 60px;}
+#parallax .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
+
+
+/* Footer Logo */
+h1{
+  text-align: center;
+}
+.circle{
+border: 2px solid black;
+width: 35px;
+border-radius: 70px;
+margin: 0 auto;
+padding: 10px;
+margin-bottom: 100px;
+border-radius: 50px;
+}
+.circle-click{
+  text-decoration: none;
+  color: black;
+}
+
+/* Section - Parallax */
+/**************************/
+#parallax .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("../img/cleveland-pin.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("../img/buffalo.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("../img/losangeles.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("../img/chicago.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+
+/* Extras */
+/**************************/
+#parallax .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax.block {padding: 40px; width:620px;}
+}
+@media screen and (max-width: 767px) {
+  #parallax .block {padding: 30px; width:420px;}
+  #parallax h2 {font-size:30px;}
+  #parallax .block {padding: 30px;}
+  #parallax .parallax-one, #parallax .parallax-two, #parallax .parallax-three .parallax-four{padding-top:100px; padding-bottom:100px;}
+}
+@media screen and (max-width: 479px) {
+  #parallax .block {padding: 30px 15px; width:290px;}
+}

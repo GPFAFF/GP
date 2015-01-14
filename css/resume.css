@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Marvel:700);
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+html{
+	height: 100%;
+	width: 100%;
+	background: url('../img/paper4-2x.jpg') 50% 0% no-repeat;
+
+}
+body{
+	font-family: 'Marvel', sans-serif;
+}
+h1{
+	text-align: center;
+	margin-top: 60px;
+	font-size: 40px;
+	
+}
+.container{
+	margin: 0 auto;
+	display: inline-block;
+}
+.experience, .row, .skills{
+	text-align: center;
+	
+}
+/*.skills{
+	margin-right: 200px;
+	text-align: center;
+}*/
+.skills{
+	float: right;
+}
+.jobs{
+	width: 400px;
+}
+.programming, .software, .design, .jobs{
+	list-style-type: none;
+	padding: 0px;
+	text-align: center;
+}
+li{
+	padding: 2px;
+	margin-bottom: 4px;
+}
+h5, h6{
+	font-size: 20px;
+	margin: 15px;
+}
+
+/* Footer Logo */
+h2, footer{
+  text-align: center;
+ 
+}
+h2{
+	margin: 0 0 0 2px;
+}
+h3{
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+footer{
+	width: 200px;
+	margin: 0 auto;
+}
+.circle{
+border: 2px solid black;
+width: 50px;
+border-radius: 50px;
+padding: 10px;
+margin: 20px auto 10px;
+height: 50px;
+}
+.circle-click{
+  text-decoration: none;
+  color: black;
+}
+nav a{
+	font-size: 25px;
+}
+.row{
+	padding: 20px;
+}
+.clear{
+	clear:both;
+}
+nav {width: 300px; padding: 20px; margin: 0px auto; text-align: center; font-size:14px; font-weight:400; text-transform: uppercase; color:black;}
+nav li {width: 75px; display: inline-block;}
