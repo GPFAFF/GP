@@ -84,6 +84,14 @@ a:hover:before{
 	transform: scaleX(1);
 }
 #parallax .title h1 {font-size:35px; letter-spacing:8px;}
+#parallax .parallax-one h2, #parallax .parallax-three h2{
+  color: black;
+  text-shadow: 2px 2px 2px white;
+}
+#parallax .parallax-two h2, #parallax .parallax-four h2{
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
 
 /* Section - Block */
 /**************************/
@@ -113,7 +121,7 @@ border-radius: 50px;
 /* Section - Parallax */
 /**************************/
 #parallax .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("../img/cleveland-pin.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
-#parallax .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("../img/buffalo.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("../img/Wings.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 #parallax .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("../img/losangeles.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 #parallax .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("../img/chicago.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 
